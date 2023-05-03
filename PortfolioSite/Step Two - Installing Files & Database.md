@@ -60,7 +60,7 @@ Now our certificate is issued we want to make sure it renews itself. Run the ren
 sudo certbot renew --dry-run
 ```
 
-#### Installing FaxStore Files
+#### Installing Portfolio Site Files
 
 This might be the easiest step in the whole guide.
 
@@ -73,7 +73,7 @@ We want to end location to be `/home/faxstore` so create a new directory if need
 
 #### Installing The Database
 
-Now, back to the harder stuff, it's time to install the MySQL database for FaxStore.
+Now, back to the harder stuff, it's time to install the MySQL database for Portfolio Site.
 
 Login to our MySQL server using the `mysql -u root -p` command and enter your password.
 
@@ -82,22 +82,4 @@ Next all we need to do once logged in is run the below command.
 
 ```sql
 source /home/faxstore/installme.sql
-```
-
-
-#### Discord Application
-
-FaxStore comes with a built in Discord bot, this is optional in the configuration file. It includes logging and other enhanced features.
-
-We will want to create a Discord Application in the [Discord Developer Portal](https://discord.com/developers/applications)
-
-Create an application and add a bot profile.
-
-![discordappcreate](https://faxes.zone/i/RUjze.gif)
-
-In the Bot tab enable all gateway intents.
-
-After that, invite the Discord bot to your guild, replacing `CLIENT_ID_HERE` with your bot ID.
-```
-https://discord.com/oauth2/authorize?client_id=CLIENT_ID_HERE&permissions=8&scope=bot%20applications.commands
 ```
