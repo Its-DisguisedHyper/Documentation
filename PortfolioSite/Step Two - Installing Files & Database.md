@@ -1,8 +1,8 @@
-Welcome to the file and database installation section! If you haven't already view [Step One - Server Setup](/c/faxstore/stepone).
+Welcome to the file and database installation section! If you haven't already view [Step One - Server Setup](/c/portfoliosite/stepone).
 
 ---
 
-As FaxStore uses Node.Js we want to use a proxy to direct users to the application through a manipulation method.
+As Portfolio Site uses Node.Js we want to use a proxy to direct users to the application through a manipulation method.
 
 If you don't have a SFTP viewer take a look at [WinSCP](https://winscp.net/eng/index.php)
 
@@ -29,7 +29,7 @@ server {
   }    
     error_page 502 /502.html;
     location = /502.html {
-        root  /home/faxstore/public;
+        root  /home/portfoliosite/public;
     }
 }
 ```
@@ -66,7 +66,7 @@ This might be the easiest step in the whole guide.
 
 Using a SFTP application like WinSCP copy and paste the contents of our download to the `/home` directory.
 
-We want to end location to be `/home/faxstore` so create a new directory if needed.
+We want to end location to be `/home/portfoliosite` so create a new directory if needed.
 
 ![winscpview](https://faxes.zone/i/hBJFF.png)
 
@@ -81,5 +81,5 @@ Next all we need to do once logged in is run the below command.
 
 
 ```sql
-source /home/faxstore/installme.sql
+source /home/portfoliosite/installme.sql
 ```

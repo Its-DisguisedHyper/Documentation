@@ -1,4 +1,4 @@
-Before starting the installation process make sure you read through [the prerequisites](/c/faxstore/prerequisites).
+Before starting the installation process make sure you read through [the prerequisites](/c/portfoliosite/prerequisites).
 
 
 If it isn't already, make sure you have an [A Record](https://support.dnsimple.com/articles/a-record) pointed to your server IP doe the domain you wish to use.
