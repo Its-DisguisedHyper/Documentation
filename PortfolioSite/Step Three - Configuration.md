@@ -16,7 +16,7 @@ Once you have configured PortfolioSite to have all of the **required** configura
 | Name | Category  |  Description | Value |
 | -------- |:-------------:| --------------:| ---------:|
 | processPort | siteInformation |  The Port for NGINX to use. **[R]** | `number` |
-| domain | siteInformation |  The website domain name eg: faxes.zone **[R]** | `string` |
+| domain | siteInformation |  The website domain name eg: hypernextgendevelopment.com **[R]** | `string` |
 | ownerId | siteInformation |  The ID of the site owner **[R]** | `string` |
 | startDebug | siteInformation |  Display debug information on start up | `true or false` |
 | blockCORS | siteInformation |  Block built in CORS policy | `true or false` |
@@ -53,6 +53,6 @@ Once you have configured PortfolioSite to have all of the **required** configura
 | commandPrefix | discordConfig | Sets the prefix for the command (Only used when Discord Commands are set to false) | `string` | 
 | useEmbeds | discordConfig |  Toggles Embeds | `true or false` |
 | name | redirects |  Sets the redirect name eg. discord | `string` |
-| link | redirects | The URL for the redirect eg. faxes.zone/d | `URL` |
+| link | redirects | The URL for the redirect eg. hypernextgendevelopment.com/d | `URL` |
 
-*[Improve this page](https://github.com/FAXES/Documentation/blob/main/PortfolioSite/Installation/Step%20Three%20-%20Configuration.md)*
+*[Improve this page](https://github.com/Its-DisguisedHyper/Documentation/blob/main/PortfolioSite/Installation/Step%20Three%20-%20Configuration.md)*
