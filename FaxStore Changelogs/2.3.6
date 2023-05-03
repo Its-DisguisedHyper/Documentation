@@ -1,0 +1,13 @@
+- Added HTML support to the default notification bar
+- Fixed `PAYEE_ACCOUNT_RESTRICTED ` error for PayPal - [#1764](https://bugs.weblutions.com/i/1764)
+- Fixed various passport errors
+- Fixed a DoS security vulnerability, see below for more details
+
+
+# CVE-2022-24434
+A malicious attacker can send a modified form to server, and crash the nodejs service. A complete denial of service can be achived by sending the malicious form in a loop.
+
+References:
+- https://nvd.nist.gov/vuln/detail/CVE-2022-24434
+- https://snyk.io/vuln/SNYK-JS-DICER-2311764
+- https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2838865
