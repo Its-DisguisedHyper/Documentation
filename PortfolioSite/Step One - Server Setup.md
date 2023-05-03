@@ -86,7 +86,7 @@ Now our database system is set up and installed.
 
 #### Installing Node.Js
 
-Node.Js is a very robust and popular framework for JavaScript. We will want to install Node.Js on our system as FaxStore indeed requires it. For this we will use Node Package Manager (NVM)
+Node.Js is a very robust and popular framework for JavaScript. We will want to install Node.Js on our system as Portfolio Site indeed requires it. For this we will use Node Package Manager (NVM)
 
 Install NVM along with Node.Js onto our system
 ```bash

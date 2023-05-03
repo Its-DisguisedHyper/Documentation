@@ -16,8 +16,8 @@ Portfolio Site will also launch a screen session for you and give you the prompt
 
 4. Portfolio Site will start and prompt you through a brand new setup process.
 
-*This is a beta feature, so give us [feedback](https://store.hypernextgendevelopment.com/projects/portfoliosite/add?t=feedback) on your experience with this simplified install.*
-*[Improve this page](https://github.com/Its-DisguisedHyper/Documentation/tree/main/portfoliosite)*
+*This is a beta feature, so give us [feedback](https://bugs.faxes.zone/projects/portfoliosite/add?t=feedback) on your experience with this simplified install.*
+*[Improve this page](https://github.com/FAXES/Documentation/tree/main/portfoliosite)*
 
 :::info
 If you've completed this step, you don't have to go through the other install steps.
