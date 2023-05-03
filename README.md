@@ -1,2 +1,2 @@
 # Documentation
-Host for FAXES documentation website
+Host for Disguised Lord documentation website
